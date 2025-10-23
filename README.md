@@ -1,6 +1,11 @@
-# 🏥 Healthcheck REST API (Go)
+# Healthcheck REST API — Runtime metrics and graceful shutdown in Go
 
 A lightweight monitoring service exposing health metrics and runtime information through REST endpoints. Demonstrates HTTP server development, runtime introspection, and graceful shutdown patterns in Go.
+
+Quick links:
+- Entrypoint: `healthcheck.go`
+- Health endpoint: `GET /health`
+- Metrics endpoint: `GET /metrics`
 
 ---
 
@@ -65,9 +70,20 @@ This project demonstrates:
 - **Concurrent Programming:** Server and signal handling with goroutines
 - **Production Patterns:** Graceful shutdown and monitoring endpoints
 
-**Difficulty:** ⭐⭐⭐ Intermediate - HTTP servers and system monitoring
+---
+
+## Folder map
+
+- `healthcheck.go`: HTTP server, health handler, metrics, graceful shutdown
+
+
+## Next steps (ideas)
+
+- Add readiness/liveness split endpoints
+- Integrate Prometheus client for richer metrics
+- Add OpenTelemetry traces for request spans
+- Dockerfile and compose for containerization
 
 ---
 
 **Author:** IAmSotiris
-
