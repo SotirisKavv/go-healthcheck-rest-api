@@ -1,4 +1,4 @@
-# 🏥 Healthcheck REST API (Go) - **Intermediate Level**
+# 🏥 Healthcheck REST API (Go)
 
 A lightweight monitoring service exposing health metrics and runtime information through REST endpoints. Demonstrates HTTP server development, runtime introspection, and graceful shutdown patterns in Go.
 
@@ -70,3 +70,4 @@ This project demonstrates:
 ---
 
 **Author:** IAmSotiris
+
